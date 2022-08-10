@@ -5,15 +5,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"0"		[$WIN32]
+		"xpos"			"c-250"		[$WIN32]
 		"xpos_minmode"	"-5"		[$WIN32]
-		"ypos"			"r120"	[$WIN32]
+		"ypos"			"c50"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
 		"wide"			"250"
-		"tall"			"120"
+		"tall"			"150"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
@@ -24,9 +24,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"75"
+		"xpos"			"6"
 		"xpos_minmode"	"60"
-		"ypos"			"35"
+		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"51"
 		"tall"			"51"
@@ -38,9 +38,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
+		"xpos"			"0"
 		"xpos_minmode"	"58"
-		"ypos"			"33"
+		"ypos"			"3"
 		"zpos"			"3"
 		"wide"			"55"
 		"tall"			"55"
@@ -53,10 +53,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
+		"xpos"			"999"	[$WIN32]
 		"xpos_minmode"	"65"	[$WIN32]
 		"xpos"			"83"	[$X360]
-		"ypos"			"33"	[$WIN32]
+		"ypos"			"999"	[$WIN32]
 		"ypos_minmode"	"40"	[$WIN32]
 		"ypos"			"43"	[$X360]
 		"zpos"			"2"
@@ -75,27 +75,27 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
+		"xpos"			"20"
 		"xpos_minmode"	"61"
-		"ypos"			"52"	[$WIN32]
+		"ypos"			"5"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"18"
+		"wide"			"150"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Oxanium_Bold24"
-		"fgcolor"		"TanDark"
+		"font"			"Oxanium_Bold48"
+		"fgcolor"		"0 200 255 180"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"76"
+		"xpos"			"60"
 		"xpos_minmode"	"61"
-		"ypos"			"20"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"6"
 		"wide"			"50"
@@ -104,8 +104,8 @@
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"DefaultSmall"
-		"fgcolor"		"TanDark"
+		"font"			"Oxanium_Bold16"
+		"fgcolor"		"White"
 	}
 	"PlayerStatusBleedImage"
 	{
